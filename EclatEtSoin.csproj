@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>EclatEtSoin</RootNamespace>
+    <AssemblyName>EclatEtSoin</AssemblyName>
+    <LangVersion>8.0</LangVersion>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <Product>Èclat &amp; Soin</Product>
+    <Company>Parapharmacie Èclat &amp; Soin</Company>
+    <Description>Gestion professionnelle de parapharmacie</Description>
+    <Nullable>disable</Nullable>
+    <DefaultItemExcludes>$(DefaultItemExcludes);EclatEtSoin\**;Eclat Et Soin\**</DefaultItemExcludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="EclatEtSoin\**" />
+    <Compile Remove="Eclat Et Soin\**" />
+    <Compile Remove="**\obj\**" />
+    <EmbeddedResource Remove="EclatEtSoin\**" />
+    <EmbeddedResource Remove="Eclat Et Soin\**" />
+    <EmbeddedResource Remove="**\obj\**" />
+    <None Remove="EclatEtSoin\**" />
+    <None Remove="Eclat Et Soin\**" />
+    <Content Remove="EclatEtSoin\**" />
+    <Content Remove="Eclat Et Soin\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EmbeddedResource Include="Resources\logo.svg" />
+    <Content Include="Database\PharmacyDB.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

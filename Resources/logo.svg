@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220">
+  <rect width="640" height="220" fill="#ffffff"/>
+  <g transform="translate(30,28)">
+    <circle cx="82" cy="82" r="82" fill="#E8F4FA"/>
+    <rect x="66" y="22" width="32" height="120" rx="8" fill="#1565C0"/>
+    <rect x="22" y="66" width="120" height="32" rx="8" fill="#1565C0"/>
+    <path d="M148 118 C148 88, 188 78, 198 108 C214 72, 248 88, 236 128 C220 168, 160 162, 148 118 Z" fill="#2E7D4F"/>
+    <path d="M198 108 C198 128, 184 140, 168 146" stroke="#1B5E3B" stroke-width="4" fill="none"/>
+  </g>
+  <text x="250" y="100" font-family="Segoe UI, Calibri, Arial" font-size="42" font-weight="700" fill="#0E4D73">�clat &amp; Soin</text>
+  <text x="250" y="138" font-family="Segoe UI, Calibri, Arial" font-size="18" fill="#2E7D4F">Parapharmacie � Casablanca</text>
+</svg>
